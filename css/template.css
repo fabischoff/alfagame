@@ -1,0 +1,55 @@
+body {
+     padding-top: 30px;
+     text-transform: uppercase; 
+}
+
+main section#titulo-principal {
+     width: auto;
+     height: 100px;     
+     padding: 20px;     
+     
+}
+
+section.content {
+     /*width: 90%;*/
+     margin-top: 20px;
+     height: 400px;
+}
+
+#carrosel {
+     width: 60%;
+     height: 400px;
+     margin-right: 8px;
+}
+#carrosel img {
+     margin: 20px auto 80px;
+     width: auto;
+         
+
+}
+
+.carousel-caption  {
+     bottom: -110px;
+     color: #000;
+     margin-bottom: 0;
+}
+
+.menu-exercicios {
+     width: 38.5%;
+     height: 400px;
+     margin-left: 9px;
+}
+
+.menu-exercicios section h1 {
+     margin: 0;
+     text-align: center;
+}
+
+nav ul {
+     text-align: center;
+     list-style: none;
+}
+nav ul li {
+     text-align: center;
+     margin-top: 10px;
+}

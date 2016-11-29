@@ -1,0 +1,49 @@
+/**, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";    
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+.container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.container {
+    display: inline-block
+}*/
+
+* {
+     box-sizing: border-box;
+}
+.outline { 
+    outline: 2px solid #000
+}
+
+
+
+/*cores*/
+
+.cor-principal {
+     background-color: #5599DD;
+}
+
+.cor-fundo-cabecalho {
+     background-color: #295D90;
+}
+
+.cor-texto-cabecalho {
+     color: #869030;
+     
+}
