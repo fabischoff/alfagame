@@ -53,3 +53,16 @@ nav ul li {
      text-align: center;
      margin-top: 10px;
 }
+
+.rodape {
+     margin-top:20px;
+     background-color: #CCCCB8;
+     width: 100%;  
+     height: auto;
+     padding: 15px;
+     clear: both;
+}
+
+.modal-body{
+    text-align: center;
+}
