@@ -1,68 +1,101 @@
 body {
-     padding-top: 30px;
-     text-transform: uppercase; 
+    padding-top: 30px;
+    text-transform: uppercase; 
 }
 
 main section#titulo-principal {
-     width: auto;
-     height: 100px;     
-     padding: 20px;     
-     
+    width: auto;
+    height: 100px;     
+    padding: 20px;     
+
 }
 
 section.content {
-     /*width: 90%;*/
-     margin-top: 20px;
-     height: 400px;
+    /*width: 90%;*/
+    margin-top: 20px;
+    height: 400px;
 }
 
 #carrosel {
-     width: 60%;
-     height: 400px;
-     margin-right: 8px;
+    width: 60%;
+    height: 400px;
+    margin-right: 8px;
 }
 #carrosel img {
-     margin: 20px auto 80px;
-     width: auto;
-         
+    margin: 20px auto 80px;
+    width: auto;       
 
 }
 
 .carousel-caption  {
-     bottom: -110px;
-     color: #000;
-     margin-bottom: 0;
+    bottom: -110px;
+    color: #000;
+    margin-bottom: 0;
 }
 
 .menu-exercicios {
-     width: 38.5%;
-     height: 400px;
-     margin-left: 9px;
+    width: 38.5%;
+    height: 400px;
+    margin-left: 9px;
 }
 
 .menu-exercicios section h1 {
-     margin: 0;
-     text-align: center;
+    margin: 0;
+    text-align: center;
 }
 
 nav ul {
-     text-align: center;
-     list-style: none;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
 }
 nav ul li {
-     text-align: center;
-     margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    
 }
+
+.menu-exercicios nav ul li a{
+    width: 300px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    background: #CCCCB8;
+    border: 3px solid #fff;
+}
+
+.menu-exercicios nav ul li a:hover{
+    width: 350px;
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+    background: #CCCCB8;
+    border: 3px solid #000;
+}
+
 
 .rodape {
-     margin-top:20px;
-     background-color: #CCCCB8;
-     width: 100%;  
-     height: auto;
-     padding: 15px;
-     clear: both;
+    margin-top:20px;
+    background-color: #CCCCB8;
+    width: 100%;  
+    height: auto;
+    padding: 15px;
+    clear: both;
 }
-
 .modal-body{
     text-align: center;
 }
+#presilabico{    
+    background:#CCCCB8 url('../img/menu-exercicios/presilabico.png') no-repeat;
+}
+#presilabico:hover{    
+    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+}
+
+#silabico {
+    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+}
+#silabico:hover {
+    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+}
+

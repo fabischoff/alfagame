@@ -60,7 +60,7 @@
             <section class="container content ">    
 
                 <!-- Button trigger modal -->
-                
+
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
@@ -145,32 +145,21 @@
                         <nav >
                             <ul>
                                 <li>
-                                    <a href="pre-silabico.php"> <img src="img/presilabico.png" width="300" height="80" alt="nível pré-silabico" title="nível pré-silabico" > </a>                                              
-
+                                    <a id="presilabico" href="pre-silabico.php"></a> 
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="img/silabico.png" width="300" height="80 alt="nível pré-silabico" title="nível pré-silabico" > </a>
-
+                                    <a id="silabico" href="#"></a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="img/silabicoalfabetico.png" width="300" height="80 alt="nível pré-silabico" title="nível pré-silabico" > </a>
-
+                                    <a id="silabico-alfabetico" href="#"></a>
                                 </li>
                                 <li>
-                                    <a href="#"> <img src="img/alfabetico.png" width="300" height="80 alt="nível pré-silabico" title="nível pré-silabico" > </a>
-
+                                    <a id="alfabetico" href="#"></a>
                                 </li>
-
-
                             </ul>     
                         </nav>
                     </section>
                 </div>
-
-
-
-
-
             </section>
         </main>
 
