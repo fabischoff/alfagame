@@ -6,7 +6,7 @@ section.content {
 .repositorio {
      width: 25%;
      height: 100px;
-     margin:20px 20px 0 0;
+     margin:20px 45px 0 0;
      text-align: center;
 }
 
@@ -63,5 +63,5 @@ section.content {
 .container-robo-ajuda {
      width: auto;
      height: 200px;
-     margin-left: 20px;
+     margin:20px 0 0 ;
 }

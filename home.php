@@ -83,19 +83,17 @@
 
                 <div id="carrosel" class="carousel slide pull-left" data-ride="carousel">
                     <!-- Indicators -->
-
-
                     <!-- Wrapper for slides -->
                     <figure class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="img/slide/85-game.png" alt="...">
+                            <img src="img/slide/103-shape-3.png" alt="...">
                             <div class="carousel-caption">
                                 <h3>jogos das letras</h3>
                                 <p>aprenda jogando e se divertindo!!</p>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="img/slide/55-bubble.png" alt="...">
+                            <img src="img/slide/105-shape-5.png" alt="...">
                             <div class="carousel-caption">     
                                 <h3>bem-vindo</h3>
                                 <p>aprenda jogando e se divertindo!!</p>
@@ -109,7 +107,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img src="img/slide/49-loudspeaker.png" alt="...">
+                            <img src="img/slide/54-listen.png" alt="...">
                             <div class="carousel-caption">
                                 <h3>ouça as letrinhas</h3>
                                 <p>escute o som e o nome das letras</p>
