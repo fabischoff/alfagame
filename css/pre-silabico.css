@@ -1,0 +1,67 @@
+section.content {
+    /*width: 90%;*/
+    padding-top: 80px;
+    /*height: 400px;*/
+}
+.repositorio {
+     width: 25%;
+     height: 100px;
+     margin:20px 20px 0 0;
+     text-align: center;
+}
+
+.repositorio p{
+     text-align: center;
+     font-size: 30px;
+     background: #FFF;
+     padding: 3px;
+     
+}
+
+.repositorio button {
+     width: 40px;
+     height: 40px;
+     font-size: 23px;
+}
+
+.container-imagens {
+     margin-top:20px;
+     width: 52%;
+     height: 60px;
+     padding:0 10px;
+     text-align: center;
+}
+.imagem-figura {
+     width: auto;
+     height:auto;
+     display: inline-block;
+     margin: 0 5px;
+}
+.larga-letra {
+     margin-top: 20px;
+     width: 40px;
+     height: 40px;
+     background-color: #1b6d85 ;
+     
+}
+.larga-silaba {
+     margin-top: 20px;
+     width: 120px;
+     height: 60px;
+     background-color: #1b6d85 ;
+}
+.larga-silaba button{
+     width: 40px;
+     height: 40px;
+     font-size: 20px;
+}
+
+.arrastar {
+     z-index: 10;
+}
+
+.container-robo-ajuda {
+     width: auto;
+     height: 200px;
+     margin-left: 20px;
+}
