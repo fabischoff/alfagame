@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Exercício pré-silábico</title>
+        <title>Exercício silábico</title>
         <meta name="description" content="" />
         <meta name="robots" content="index, follow" />
 
@@ -84,10 +84,10 @@
                 <div class="container-jogo center-block ">
                     <div class="repositorio pull-left">
                         <p>letras</p>
-                        <button id="m" class="arrastar maca" >M</button>
-                        <button id="p" class="arrastar pera" >P</button>
-                        <button id="l" class="arrastar limao" >L</button>
-                        <button id="c" class="arrastar coco" >C</button>
+                        <button id="m" class="arrastar maca" >MA</button>
+                        <button id="p" class="arrastar pera" >PE</button>
+                        <button id="l" class="arrastar limao" >LI</button>
+                        <button id="c" class="arrastar coco" >CO</button>
                         <button id="u" class="arrastar uva" >U</button>
                     </div>
                     <!--<audio src="audio/a.mp3" type="audio/mpeg" hidden="true" autoplay="true"></audio>-->
@@ -95,7 +95,8 @@
 
                         <div class="imagem-figura">
                             <img src="img/frutas/1.jpg" title="maca">
-                            <div class="larga-letra center-block largar" id="maca"></div>
+                            <div class="larga-letra pull-left largar" ></div>
+                            <div class="larga-letra pull-left largar" ><span class="silaba">ÇA</span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/3.jpg">
@@ -121,24 +122,24 @@
                 </div>
             </section>
         </main>
-        
+
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">instruções</h4>
-                            </div>
-                            <div class="modal-body">
-                                <h1>ouça as instruções</h1>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                                <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
-                            </div>
-                        </div>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">instruções</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h1>ouça as instruções</h1>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
                     </div>
                 </div>
+            </div>
+        </div>
 
         <footer class="rodape ">
             <h2>protótipo para trabalho de conclusão</h2>

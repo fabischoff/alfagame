@@ -67,14 +67,15 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">instruções</h4>
+                                <h4 class="modal-title" id="myModalLabel">ouça as instruções</h4>
                             </div>
                             <div class="modal-body">
-                                <h1>ouça as instruções</h1>
+                                <a href="#" class="ouvirNovamento"><img src="img/slide/54-listen.png" alt="..."></a>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                                <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
+                                <button type="button" class=" ouvirNovamentobtn btn btn-primary">ouvir novamente</button>
+                                
                             </div>
                         </div>
                     </div>
@@ -146,7 +147,7 @@
                                     <a id="presilabico" href="pre-silabico.php"></a> 
                                 </li>
                                 <li>
-                                    <a id="silabico" href="#"></a>
+                                    <a id="silabico" href="silabico.php"></a>
                                 </li>
                                 <li>
                                     <a id="silabico-alfabetico" href="#"></a>

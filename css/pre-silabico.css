@@ -19,8 +19,8 @@ section.content {
 }
 
 .repositorio button {
-     width: 40px;
-     height: 40px;
+     width: 50px;
+     height: 50px;
      font-size: 23px;
 }
 
@@ -39,21 +39,14 @@ section.content {
 }
 .larga-letra {
      margin-top: 20px;
-     width: 40px;
-     height: 40px;
+     width: 50px;
+     height: 50px;
      background-color: #1b6d85 ;
      
 }
-.larga-silaba {
-     margin-top: 20px;
-     width: 120px;
-     height: 60px;
-     background-color: #1b6d85 ;
-}
-.larga-silaba button{
-     width: 40px;
-     height: 40px;
-     font-size: 20px;
+.imagem-figura img {
+    display: block;
+    
 }
 
 .arrastar {
@@ -64,4 +57,12 @@ section.content {
      width: auto;
      height: 200px;
      margin:20px 0 0 ;
+}
+
+.silaba{
+    width: 50px;
+    height: 50px;
+    background-color: #007fff;
+    display: block;
+    font-size: 30px;
 }
