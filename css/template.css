@@ -105,3 +105,15 @@ nav ul li {
     background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
 }
 
+#silabico-alfabetico {
+    background: #CCCCB8 url('../img/menu-exercicios/silabicoalfabetico.png') no-repeat;
+}
+#silabico-alfabetico:hover {
+    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+}
+#alfabetico {
+    background: #CCCCB8 url('../img/menu-exercicios/alfabetico.png') no-repeat;
+}
+#alfabetico:hover {
+    background: #CCCCB8 url('../img/menu-exercicios/alfabetico.png') no-repeat;
+}

@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.css"/>
         <link rel="stylesheet" href="css/auxiliares.css"/>
         <link rel="stylesheet" href="css/template.css"/>
+        <link rel="stylesheet" href="css/exercicios.css"/>
         <link rel="stylesheet" href="css/pre-silabico.css"/>
         <script src="js/jquery-3.1.1.js"></script>
     </head>
@@ -116,7 +117,7 @@
 
                     </div>
                     <div class="container-robo-ajuda pull-right">
-                        <img id="robo-ajuda" src="img/53-puzzle.png">
+                         <img id="robo-ajuda" src="img/12-confused.png">
                     </div>
                 </div>
             </section>

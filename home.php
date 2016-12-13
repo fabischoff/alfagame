@@ -150,10 +150,10 @@
                                     <a id="silabico" href="silabico.php"></a>
                                 </li>
                                 <li>
-                                    <a id="silabico-alfabetico" href="#"></a>
+                                     <a id="silabico-alfabetico" href="silabicoalfabetico.php"></a>
                                 </li>
                                 <li>
-                                    <a id="alfabetico" href="#"></a>
+                                     <a id="alfabetico" href="alfabetico.php"></a>
                                 </li>
                             </ul>     
                         </nav>

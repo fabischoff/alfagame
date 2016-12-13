@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/auxiliares.css"/>
         <link rel="stylesheet" href="css/template.css"/>
         <link rel="stylesheet" href="css/exercicios.css"/>
-        <link rel="stylesheet" href="css/silabico.css"/>
+        <link rel="stylesheet" href="css/silabicoalfabetico.css"/>
         <script src="js/jquery-3.1.1.js"></script>
     </head>
 
@@ -85,10 +85,10 @@
                 <div class="container-jogo center-block ">
                     <div class="repositorio pull-left">
                         <p>letras</p>
-                        <button id="m" class="arrastar maca" >M</button>
-                        <button id="p" class="arrastar pera" >P</button>
-                        <button id="l" class="arrastar limao" >L</button>
-                        <button id="c" class="arrastar coco" >C</button>
+                        <button id="m" class="arrastar maca" >MA</button>
+                        <button id="p" class="arrastar pera" >PE</button>
+                        <button id="l" class="arrastar limao" >LI</button>
+                        <button id="c" class="arrastar coco" >CO</button>
                         <button id="u" class="arrastar uva" >U</button>
                     </div>
                     <!--<audio src="audio/a.mp3" type="audio/mpeg" hidden="true" autoplay="true"></audio>-->
@@ -96,29 +96,29 @@
 
                         <div class="imagem-figura">
                             <img src="img/frutas/1.jpg" title="maca">
-                            <div class="larga-letra pull-left largar" id="maca" ></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>AÇA</button></span></div>
+                            <div class="larga-letra pull-left largar"id="maca" ></div>
+                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>ÇA</button></span></div>
                         </div>
                          
                         <div class="imagem-figura ">
                              <img src="img/frutas/3.jpg" title="maca">
                             <div class="larga-letra pull-left largar" id="pera" ></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>ERA</button></span></div>
+                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>RA</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/5.jpg">
-                            <div class="larga-letra pull-left largar" id="limao"></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>IMÃO</button></span></div>
+                            <div class="larga-letra pull-left largar"id="limao" ></div>
+                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>MÃO</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/6.jpg">
-                            <div class="larga-letra pull-left largar" id="coco"></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"> <button>OCO</button> </span></div>
+                            <div class="larga-letra pull-left largar" id="coco" ></div>
+                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>CO</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/7.jpg">
                            <div class="larga-letra pull-left largar" id="uva" ></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>VA</button></span></div>
+                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>VA</button></span></div>
                         </div>
 
                     </div>

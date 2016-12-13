@@ -1,0 +1,56 @@
+section.content {
+    /*width: 90%;*/
+    padding-top: 80px;
+    /*height: 400px;*/
+}
+.repositorio {
+     width: 25%;
+     height: 100px;
+     margin:20px 45px 0 0;
+     text-align: center;
+}
+
+.repositorio p{
+     text-align: center;
+     font-size: 30px;
+     background: #FFF;
+     padding: 3px;
+     
+}
+
+.container-imagens {
+     margin-top:20px;
+     width: 52%;
+     height: 60px;
+     padding:0 10px;
+     text-align: center;
+}
+.imagem-figura {
+     width: auto;
+     height:auto;
+     display: inline-block;
+     margin: 0 5px;
+}
+
+.imagem-figura img {
+    display: block;
+    
+}
+
+.arrastar {
+     z-index: 1;
+}
+
+.container-robo-ajuda {
+     width: auto;
+     height: 200px;
+     margin:20px 0 0 ;
+}
+
+.silaba{
+    width: 50px;
+    height: 50px;
+    background-color: #007fff;
+    display: block;
+    font-size: 30px;
+}

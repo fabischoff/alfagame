@@ -1,0 +1,21 @@
+.repositorio button {
+     width: 70px;
+     height: 40px;
+     font-size: 15px;
+     z-index: 2;
+     margin-bottom: 7px;
+}
+
+span button {
+     width: 70px;
+     height: 40px;
+     font-size: 15px;
+}
+
+.larga-letra {
+     margin-top: 20px;
+     width: 70px;
+     height: 40px;
+     background-color: #1b6d85 ;
+
+}
