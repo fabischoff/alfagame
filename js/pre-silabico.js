@@ -2,6 +2,13 @@
 
 $(document).ready(function () {
     var numeroAcerto = 0;
+    
+    $('#abrirModal').mouseover(function(){
+         $('#modalFimJogo').modal('show');
+    });
+         
+    
+    
     $('button').mousedown(function () {
         var id = $(this).attr('id');
         id = id + '.mp3';
@@ -30,7 +37,7 @@ $(document).ready(function () {
                 //                arrastado.revert.false;
                 numeroAcerto++;
                 if (numeroAcerto === 5) {
-                    $('#myModal').modal('show');
+                    $('#modalFimJogo').modal('show');
                 }
                 arrastado.revert('false');
 
