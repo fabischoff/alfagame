@@ -19,6 +19,8 @@ $(document).ready(function () {
         cancel: false,
         revert: true
     });
+    
+    
 
     $(".largar").droppable({
         drop: function (event, ui) {
@@ -37,7 +39,14 @@ $(document).ready(function () {
                 //                arrastado.revert.false;
                 numeroAcerto++;
                 if (numeroAcerto === 5) {
-                    $('#modalFimJogo').modal('show');
+                    $('#robo-ajuda').attr("src", "img/trofeu.png");
+                    $('body').append('<audio src="audio/error.mp3" hidden="true" autoplay="true"></audio>');
+                   
+                    //ver timeout
+                    setTimeout(function(){
+                        $('#modalFimJogo').modal('show');
+                    },3000);
+                    
                 }
                 arrastado.revert('false');
 
@@ -45,7 +54,7 @@ $(document).ready(function () {
                 //alert('Tente novamente!');
                 $('body').append('<audio src="audio/error.mp3" hidden="true" autoplay="true"></audio>');
                 $(this).css('background', '#EDCEA6');
-                $('#robo-ajuda').attr("src", "img/46-question.png");
+                $('#robo-ajuda').attr("src", "img/erro.png");
 
             }
         }

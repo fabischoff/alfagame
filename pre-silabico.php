@@ -101,7 +101,7 @@
                               <button id="c" class="arrastar coco" >C</button>
                               <button id="u" class="arrastar uva" >U</button>
                          </div>
-                         <button id="abrirModal">Abrir</button>
+                         <!--<button id="abrirModal">Abrir</button>-->
 
                          <!--<audio src="audio/a.mp3" type="audio/mpeg" hidden="true" autoplay="true"></audio>-->
                          <div class="container-imagens  pull-left">
@@ -128,8 +128,8 @@
                               </div>
 
                          </div>
-                         <div class="container-robo-ajuda pull-right">
-                              <img id="robo-ajuda" src="img/12-confused.png">
+                         <div class="container-robo-ajuda pull-right outline">
+                             <img id="robo-ajuda" src="img/pensar.png">
                          </div>
                     </div>
                </section>

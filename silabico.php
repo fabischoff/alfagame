@@ -85,7 +85,7 @@
                 <div class="container-jogo center-block ">
                     <div class="repositorio pull-left">
                         <p>letras</p>
-                        <button id="m" class="arrastar maca" >M</button>
+                        <button id="m" class="arrastar maca" >A</button>
                         <button id="p" class="arrastar pera" >P</button>
                         <button id="l" class="arrastar limao" >L</button>
                         <button id="c" class="arrastar coco" >C</button>
@@ -95,29 +95,34 @@
                     <div class="container-imagens  pull-left">
 
                         <div class="imagem-figura">
-                            <img src="img/frutas/1.jpg" title="maca">
-                            <div class="larga-letra pull-left largar" id="maca" ></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>AÇA</button></span></div>
+                            <img src="img/frutas/1.jpg" title="maca" class="center-block">
+                            <div class="larga-letra pull-left largar" id="maca" ><span class="silaba"><button>M</button></span></div>
+                            <div class="larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>ÇA</button></span></div>
                         </div>
-                         
+
                         <div class="imagem-figura ">
-                             <img src="img/frutas/3.jpg" title="maca">
-                            <div class="larga-letra pull-left largar" id="pera" ></div>
-                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>ERA</button></span></div>
+                            <img src="img/frutas/3.jpg" title="maca" class="center-block">
+                            <div class="larga-letra pull-left largar" id="pera" ><span class="silaba"><button>P</button></span></div>
+                            <div class="larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>RA</button></span></div>
                         </div>
                         <div class="imagem-figura ">
-                            <img src="img/frutas/5.jpg">
+                            <img src="img/frutas/5.jpg" class="center-block">
                             <div class="larga-letra pull-left largar" id="limao"></div>
+                            <div class="larga-letra pull-left largar"></div>
                             <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>IMÃO</button></span></div>
                         </div>
                         <div class="imagem-figura ">
-                            <img src="img/frutas/6.jpg">
+                            <img src="img/frutas/6.jpg" class="center-block">
                             <div class="larga-letra pull-left largar" id="coco"></div>
+                            <div class="larga-letra pull-left largar"></div>
                             <div class="larga-letra pull-left largar" id="id">  <span class="silaba"> <button>OCO</button> </span></div>
                         </div>
                         <div class="imagem-figura ">
-                            <img src="img/frutas/7.jpg">
-                           <div class="larga-letra pull-left largar" id="uva" ></div>
+                            <img src="img/frutas/7.jpg" class="center-block">
+                            <div class="larga-letra pull-left largar" id="uva" ></div>
+                            <div class="larga-letra pull-left largar"></div>
                             <div class="larga-letra pull-left largar" id="id">  <span class="silaba"><button>VA</button></span></div>
                         </div>
 
