@@ -38,11 +38,9 @@
                                    <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Atividades <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                             <li><a href="#">Nível 1</a></li>
-                                             <li><a href="#">Nível 2</a></li>
-                                             <li><a href="#">Nível 3</a></li>
-                                             <li role="separator" class="divider"></li>
-                                             <li><a href="#">Separated link</a></li>
+                                             <li><a href="silabicoalfabetico_1.php">anterior</a>
+                                             </li><li><a href="alfabetico_1.php">próximo</a></li>
+
                                         </ul>
                                    </li>
                                    <li class="active"><a href="home.php">Home</a></li>
@@ -144,23 +142,23 @@
                </section>
           </main>
 
-<!--          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-               <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                         <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                              <h4 class="modal-title" id="myModalLabel">instruções</h4>
+          <!--          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                         <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                   <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">instruções</h4>
+                                   </div>
+                                   <div class="modal-body">
+                                        <h1>ouça as instruções</h1>
+                                   </div>
+                                   <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                        <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
+                                   </div>
+                              </div>
                          </div>
-                         <div class="modal-body">
-                              <h1>ouça as instruções</h1>
-                         </div>
-                         <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                              <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
-                         </div>
-                    </div>
-               </div>
-          </div>-->
+                    </div>-->
 
           <footer class="rodape ">
                <h2>protótipo para trabalho de conclusão</h2>

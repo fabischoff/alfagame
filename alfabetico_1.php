@@ -38,11 +38,8 @@
                                    <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Atividades <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                             <li><a href="#">Nível 1</a></li>
-                                             <li><a href="#">Nível 2</a></li>
-                                             <li><a href="#">Nível 3</a></li>
-                                             <li role="separator" class="divider"></li>
-                                             <li><a href="#">Separated link</a></li>
+                                             <li><a href="home.php">início</a></li>
+                                            
                                         </ul>
                                    </li>
                                    <li class="active"><a href="home.php">Home</a></li>
