@@ -29,7 +29,7 @@
                                    <span class="icon-bar"></span>
                                    <span class="icon-bar"></span>
                               </button>
-                              <a class="navbar-brand" href="home.php">Alfa-Aut</a>
+                              <a class="navbar-brand" href="home.php">alfa game</a>
                          </div>
                          <div class="navbar-collapse collapse" id="navbarCollapse">
                               <ul class="nav navbar-nav navbar-right">
@@ -38,7 +38,7 @@
                                         <ul class="dropdown-menu">
                                              <li><a href="pre-silabico.php">EXERCÍCIO 1</a></li>
                                              <li><a href="pre-silabico_1.php">EXERCÍCIO 2</a></li>
-
+                                            
                                         </ul>
                                    </li>
                                    <li class="active"><a href="home.php">Home</a></li>
@@ -60,7 +60,7 @@
                     <!-- Button trigger modal -->
 
                     <!-- Modal -->
-                    <div class="modal fade" id="homeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                          <div class="modal-dialog" role="document">
                               <div class="modal-content">
                                    <div class="modal-header">
@@ -68,16 +68,11 @@
                                         <h4 class="modal-title" id="myModalLabel">ouça as instruções</h4>
                                    </div>
                                    <div class="modal-body">
-                                        <a href="#" class="ouvirNovamentoInstrucao"><img src="img/slide/54-listen.png" alt="..."></a>
+                                        <a href="#" class="ouvirNovamento"><img src="img/slide/54-listen.png" alt="..."></a>
                                    </div>
                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">
-                                             <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
-                                        </button>
-                                        <button type="button" class="btn btn-default ouvirNovamentoInstrucao">
-                                             <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
-                                        </button>
-
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                        <button type="button" class=" ouvirNovamentobtn btn btn-primary">ouvir novamente</button>
 
                                    </div>
                               </div>
@@ -139,7 +134,7 @@
                          </a>
                     </div>
 
-                    <div class="menu-exercicios pull-right">
+                    <div class="menu-exercicios pull-right  ">
 
                          <section>
                               <h1 class="cor-fundo-cabecalho cor-texto-cabecalho"> exercícios </h1>
@@ -150,14 +145,9 @@
                                              <a id="presilabico" href="pre-silabico.php"></a> 
                                         </li>
                                         <li>
-                                             <a id="silabico" href="silabico_vogal.php"></a>
+                                             <a id="silabico" href="silabico.php"></a>
                                         </li>
-                                        <li>
-                                             <a id="silabico-alfabetico" href="silabicoalfabetico.php"></a>
-                                        </li>
-                                        <li>
-                                             <a id="alfabetico" href="alfabetico.php"></a>
-                                        </li>
+                                        
                                    </ul>     
                               </nav>
                          </section>
@@ -175,23 +165,11 @@
           <script src="js/plugins.js"></script>
           <script src="js/main.js"></script>
           <script src="js/cookie.js"></script>
+
+
+
+
+
           <script src="js/bootstrap.js"></script>
-          <script>
-               $(document).ready(function () {
-
-
-                    $('#homeModal').modal('show',
-                            $('body').append('<audio src="audio/bem-vindo.mp3" hidden="true" autoplay="true"></audio>')
-                            );
-                    $('.ouvirNovamentoInstrucao').click(
-                            ouvirNovamentoInstrucao
-                            );
-                    function ouvirNovamentoInstrucao() {
-//        alert('teste');
-                         $('body').append('<audio src="audio/bem-vindo.mp3" hidden="true" autoplay="true"></audio>');
-                    }
-
-               });
-          </script>
      </body>
 </html>

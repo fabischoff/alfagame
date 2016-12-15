@@ -31,18 +31,16 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="home.php">alfa game</a>
+                        <a class="navbar-brand" href="home.php">alfa-aut</a>
                     </div>
                     <div class="navbar-collapse collapse" id="navbarCollapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Atividades <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Nível 1</a></li>
-                                    <li><a href="#">Nível 2</a></li>
-                                    <li><a href="#">Nível 3</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
+                                     <li><a href="alfabetico.php">PRÓXIMO</a></li>
+                                     <li><a href="silabico_consoante.php">ANTERIOR</a></li>
+                                  
                                 </ul>
                             </li>
                             <li class="active"><a href="home.php">Home</a></li>
@@ -64,31 +62,41 @@
                 <!-- Button trigger modal -->
 
                 <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">instruções</h4>
-                            </div>
-                            <div class="modal-body">
-                                <h1>ouça as instruções</h1>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">fechar</button>
-                                <button type="button" id="jogarNovamento" class="btn btn-primary">jogar  novamente</button>
-                            </div>
-                        </div>
+                    <div class="modal fade" id="modalFimJogo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                         <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                   <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">menu</h4>
+                                   </div>
+                                   <div class="modal-body">
+                                        <a href="alfabetico.php"><span>Próximo</span>
+                                             <button type="button" class="btn btn-default" aria-label="Left Align">
+                                                  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                                             </button>
+                                        </a>
+                                   </div>
+                                   <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                                             <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                                        </button>
+                                        <a href="silabicoalfabetico.php">
+                                             <button type="button" id="jogarNovamento" class="btn btn-primary">
+                                                  <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+                                             </button>
+                                        </a>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                </div>
 
                 <div class="container-jogo center-block ">
                     <div class="repositorio pull-left">
                         <p>letras</p>
-                        <button id="m" class="arrastar maca" >MA</button>
-                        <button id="p" class="arrastar pera" >PE</button>
-                        <button id="l" class="arrastar limao" >LI</button>
-                        <button id="c" class="arrastar coco" >CO</button>
+                        <button id="ma" class="arrastar maca" >MA</button>
+                        <button id="pe" class="arrastar pera" >PE</button>
+                        <button id="li" class="arrastar limao" >LI</button>
+                        <button id="co" class="arrastar coco" >CO</button>
                         <button id="u" class="arrastar uva" >U</button>
                     </div>
                     <!--<audio src="audio/a.mp3" type="audio/mpeg" hidden="true" autoplay="true"></audio>-->
@@ -96,56 +104,62 @@
 
                         <div class="imagem-figura">
                             <img src="img/frutas/1.jpg" title="maca">
-                            <div class="larga-letra pull-left largar"id="maca" ></div>
-                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>ÇA</button></span></div>
+                            <div class="ma larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar"><span class="silaba"><button>ÇA</button></span></div>
                         </div>
                          
                         <div class="imagem-figura ">
                              <img src="img/frutas/3.jpg" title="maca">
-                            <div class="larga-letra pull-left largar" id="pera" ></div>
-                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>RA</button></span></div>
+                            <div class="pe larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar">  <span class="silaba"><button>RA</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/5.jpg">
-                            <div class="larga-letra pull-left largar"id="limao" ></div>
-                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>MÃO</button></span></div>
+                            <div class="li larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar">  <span class="silaba"><button>MÃO</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/6.jpg">
-                            <div class="larga-letra pull-left largar" id="coco" ></div>
-                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>CO</button></span></div>
+                            <div class="co larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar">  <span class="silaba"><button>CO</button></span></div>
                         </div>
                         <div class="imagem-figura ">
                             <img src="img/frutas/7.jpg">
-                           <div class="larga-letra pull-left largar" id="uva" ></div>
-                            <div class="larga-letra pull-left largar" id="id" >  <span class="silaba"><button>VA</button></span></div>
+                           <div class="u larga-letra pull-left largar"></div>
+                            <div class="larga-letra pull-left largar">  <span class="silaba"><button>VA</button></span></div>
                         </div>
 
                     </div>
                     <div class="container-robo-ajuda pull-right">
-                        <img id="robo-ajuda" src="img/53-puzzle.png">
+                        <img id="robo-ajuda" src="img/16-patient.png">
                     </div>
                 </div>
             </section>
         </main>
 
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">instruções</h4>
+               <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">instruções</h4>
+                         </div>
+                         <div class="modal-body">
+                              <a href="#" class="ouvirNovamento"><img src="img/slide/54-listen.png" alt="..."></a>
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">
+                                   <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                              </button>
+                              <button type="button" class="btn btn-default ouvirNovamento">
+                                   <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+                              </button>
+
+
+                         </div>
                     </div>
-                    <div class="modal-body">
-                        <h1>ouça as instruções</h1>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+               </div>
+          </div>
 
         <footer class="rodape ">
             <h2>protótipo para trabalho de conclusão</h2>
@@ -156,5 +170,23 @@
         <script src="js/main.js"></script>
         <script src="js/pre-silabico.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script>
+               $(document).ready(function () {
+
+
+                   $('#myModal').modal('show',
+                            $('body').append('<audio src="audio/silabico_alfabetico.mp3" hidden="true" autoplay="true"></audio>')
+                            );
+                    $('.ouvirNovamento').click(
+                            ouvirNovamentoInstrucao
+                            );
+                    function ouvirNovamentoInstrucao() {
+//        alert('teste');
+                         $('body').append('<audio src="audio/silabico_alfabetico.mp3" hidden="true" autoplay="true"></audio>');
+                    }
+
+               });
+          </script>
+        
     </body>
 </html>

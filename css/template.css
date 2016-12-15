@@ -95,25 +95,25 @@ nav ul li {
     background:#CCCCB8 url('../img/menu-exercicios/presilabico.png') no-repeat;
 }
 #presilabico:hover{    
-    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+    background: #CCCCB8 url('../img/menu-exercicios/presilabico2.png') no-repeat;
 }
 
 #silabico {
     background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
 }
 #silabico:hover {
-    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+    background: #CCCCB8 url('../img/menu-exercicios/silabico2.png') no-repeat;
 }
 
 #silabico-alfabetico {
     background: #CCCCB8 url('../img/menu-exercicios/silabicoalfabetico.png') no-repeat;
 }
 #silabico-alfabetico:hover {
-    background: #CCCCB8 url('../img/menu-exercicios/silabico.png') no-repeat;
+    background: #CCCCB8 url('../img/menu-exercicios/silabicoalfabetico2.png') no-repeat;
 }
 #alfabetico {
     background: #CCCCB8 url('../img/menu-exercicios/alfabetico.png') no-repeat;
 }
 #alfabetico:hover {
-    background: #CCCCB8 url('../img/menu-exercicios/alfabetico.png') no-repeat;
+    background: #CCCCB8 url('../img/menu-exercicios/alfabetico2.png') no-repeat;
 }

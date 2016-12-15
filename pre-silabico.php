@@ -31,18 +31,17 @@
                                    <span class="icon-bar"></span>
                                    <span class="icon-bar"></span>
                               </button>
-                              <a class="navbar-brand" href="home.php">alfa game</a>
+                              <a class="navbar-brand" href="home.php">alfa-Aut</a>
                          </div>
                          <div class="navbar-collapse collapse" id="navbarCollapse">
                               <ul class="nav navbar-nav navbar-right">
                                    <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Atividades <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                             <li><a href="#">Nível 1</a></li>
-                                             <li><a href="#">Nível 2</a></li>
-                                             <li><a href="#">Nível 3</a></li>
-                                             <li role="separator" class="divider"></li>
-                                             <li><a href="#">Separated link</a></li>
+                                             <li><a href="silabico_vogal.php">PRÓXIMO</a></li>
+
+
+
                                         </ul>
                                    </li>
                                    <li class="active"><a href="home.php">Home</a></li>
@@ -72,11 +71,11 @@
                                         <h4 class="modal-title" id="myModalLabel">menu</h4>
                                    </div>
                                    <div class="modal-body">
-                                        <span>Próximo</span>
-                                        <button type="button" class="btn btn-default" aria-label="Left Align">
-                                             <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
-                                        </button>
-
+                                        <a href="silabico_vogal.php"><span>Próximo</span>
+                                             <button type="button" class="btn btn-default" aria-label="Left Align">
+                                                  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                                             </button>
+                                        </a>
                                    </div>
                                    <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -104,38 +103,38 @@
                          <!--<button id="abrirModal">Abrir</button>-->
 
                          <!--<audio src="audio/a.mp3" type="audio/mpeg" hidden="true" autoplay="true"></audio>-->
-                         <div class="container-imagens  pull-left">
+                         <div class="container-imagens  pull-left ">
 
                               <div class="imagem-figura">
                                    <img src="img/frutas/1.jpg" title="maca">
-                                   <div class="larga-letra center-block largar" id="maca"></div>
+                                   <div class="m larga-letra center-block largar" id="maca"></div>
                               </div>
                               <div class="imagem-figura ">
                                    <img src="img/frutas/3.jpg">
-                                   <div class="larga-letra center-block largar" id="pera"></div>
+                                   <div class="p larga-letra center-block largar" id="pera"></div>
                               </div>
                               <div class="imagem-figura ">
                                    <img src="img/frutas/5.jpg">
-                                   <div class="larga-letra center-block largar" id="limao"></div>
+                                   <div class="l larga-letra center-block largar" id="limao"></div>
                               </div>
                               <div class="imagem-figura ">
                                    <img src="img/frutas/6.jpg">
-                                   <div class="larga-letra center-block largar" id="coco"></div>
+                                   <div class="c larga-letra center-block largar" id="coco"></div>
                               </div>
                               <div class="imagem-figura ">
                                    <img src="img/frutas/7.jpg">
-                                   <div class="larga-letra center-block largar" id="uva"></div>
+                                   <div class="u larga-letra center-block largar" id="uva"></div>
                               </div>
 
                          </div>
-                         <div class="container-robo-ajuda pull-right outline">
-                             <img id="robo-ajuda" src="img/pensar.png">
+                         <div class="container-robo-ajuda pull-right ">
+                              <img id="robo-ajuda" src="img/16-patient.png">
                          </div>
                     </div>
                </section>
           </main>
 
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal fade" id="modalPresilabico" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                <div class="modal-dialog" role="document">
                     <div class="modal-content">
                          <div class="modal-header">
@@ -143,11 +142,17 @@
                               <h4 class="modal-title" id="myModalLabel">instruções</h4>
                          </div>
                          <div class="modal-body">
-                              <h1>ouça as instruções</h1>
+                              <a href="#" class="ouvirNovamento"><img src="img/slide/54-listen.png" alt="..."></a>
                          </div>
                          <div class="modal-footer">
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                              <button type="button" id="ouvirNovamento" class="btn btn-primary">ouvir novamente</button>
+                              <button type="button" class="btn btn-default" data-dismiss="modal">
+                                   <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                              </button>
+                              <button type="button" class="btn btn-default ouvirNovamento">
+                                   <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
+                              </button>
+
+
                          </div>
                     </div>
                </div>
@@ -162,5 +167,22 @@
           <script src="js/main.js"></script>
           <script src="js/pre-silabico.js"></script>
           <script src="js/bootstrap.js"></script>
+          <script>
+               $(document).ready(function () {
+
+
+                   $('#modalPresilabico').modal('show',
+                            $('body').append('<audio src="audio/instrucao_pre_silabico.mp3" hidden="true" autoplay="true"></audio>')
+                            );
+                    $('.ouvirNovamento').click(
+                            ouvirNovamentoInstrucao
+                            );
+                    function ouvirNovamentoInstrucao() {
+//        alert('teste');
+                         $('body').append('<audio src="audio/instrucao_pre_silabico.mp3" hidden="true" autoplay="true"></audio>');
+                    }
+
+               });
+          </script>
      </body>
 </html>

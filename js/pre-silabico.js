@@ -28,10 +28,10 @@ $(document).ready(function () {
             var arrastado = ui.draggable;
             var idArrastado = ui.draggable.attr('id');
 //                              alert(idArrastado);
-            var idDeposito = ($(this).attr('id'));
-            var primeiraLetra = idDeposito.substring(0, 1);
-//                              alert(primeiraLetra);
-            if (idArrastado === primeiraLetra) {
+//            var idDeposito = ($(this).attr('id'));
+            //var primeiraLetra = idDeposito.substring(0, 1);
+                             //alert(classDeposito);
+            if ($(this).hasClass(idArrastado)) {
 //                                 alert('Você acertou!');
                 arrastado.position({of: $(this), my: 'left top', at: 'left top'});
                 $('body').append('<audio src="audio/acerto.mp3" hidden="true" autoplay="true"></audio>');
@@ -45,7 +45,7 @@ $(document).ready(function () {
                     //ver timeout
                     setTimeout(function(){
                         $('#modalFimJogo').modal('show');
-                    },3000);
+                    },1500);
                     
                 }
                 arrastado.revert('false');
